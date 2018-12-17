@@ -92,7 +92,7 @@ __Main objectif: Rapidly test algorithms__ to test whether or not there is a str
     - classification, regression, clustering, ...
         - classification : [WIP]
         - regression :
-            - __r²__ score
+            - __rÂ²__ score
             - Mean Absolute Error (MAE)
             - Mean Squared Error (MSE)
             - ...
@@ -112,6 +112,9 @@ __Main objectif: Rapidly test algorithms__ to test whether or not there is a str
 
 
 - Then choose 5-10 __standard__ and __appropriate__ algorithms to spot check (from [here](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)).
+
+<img src="/static/MachineLearningAlgorithms.png"/>
+
 
 ## Improve results
 Also see this [cheatsheet](https://machinelearningmastery.com/machine-learning-performance-improvement-cheat-sheet/).
