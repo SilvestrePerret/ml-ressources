@@ -28,7 +28,7 @@
 
 ### Why does the problem need to be solved ?
 - Motivation : Make it clear
-    - Wanting to learn $\ne$ risking to be fired.
+    - Wanting to learn __!=__ risking to be fired.
 
 
 - Solution benefits : Make the benefits for you/your team clear
@@ -52,7 +52,7 @@ __Know__ the scope of available data (__no code here__) :
 - What is __unnecessary__ ?
 
 ### Preprocess Data 
-- __Formatting__ : relational database $\leftrightarrow$ text file $\leftrightarrow$ proprietary format
+- __Formatting__ : relational database __<-->__ text file __<-->__ proprietary format
 
 
 - __Cleaning__ : 
@@ -79,10 +79,10 @@ You can spend a lot of time engineering features.__Start small and build on__
 - __Scaling/reducing__ 
 
 
-- __Decomposition__ : example: Datetime $\rightarrow$ Date & Time separated fields
+- __Decomposition__ : example: Datetime __-->__ Date & Time separated fields
 
 
-- __Aggregation__ : example: One row per client $\rightarrow$ One row per day
+- __Aggregation__ : example: One row per client __-->__ One row per day
 
 ## Spot-check algorithms
 __Main objectif: Rapidly test algorithms__ to test whether or not there is a structure to learn in your problem __and__ which algorithms are effective.
@@ -92,7 +92,7 @@ __Main objectif: Rapidly test algorithms__ to test whether or not there is a str
     - classification, regression, clustering, ...
         - classification : [WIP]
         - regression :
-            - $r^2$ score
+            - __r²__ score
             - Mean Absolute Error (MAE)
             - Mean Squared Error (MSE)
             - ...
@@ -105,7 +105,7 @@ __Main objectif: Rapidly test algorithms__ to test whether or not there is a str
     - 66% train, 34% test
     
 - Cross validation (if more confident) :
-    - 3, 5, 7, 10 folds $\rightarrow$ find a balance between size and representation
+    - 3, 5, 7, 10 folds __-->__ find a balance between size and representation
     
 ### THEN SPOT CHECK MANY ALGORIHTMS
 - First algo to check is __random__ (also see `DummyClassifier` and `DummyRegressor` from `scikit-learn`)
@@ -118,7 +118,7 @@ Also see this [cheatsheet](https://machinelearningmastery.com/machine-learning-p
 
 ### Algorithms tuning
 
-__The mode tuned your algorithm is, the more biased the result will be $\rightarrow$ Risk of over-fitting__
+__The mode tuned your algorithm is, the more biased the result will be __-->__ Risk of over-fitting__
 
 See the [scikit doc](https://scikit-learn.org/stable/modules/grid_search.html).
 - Grid search
