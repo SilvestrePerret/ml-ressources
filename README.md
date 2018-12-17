@@ -11,11 +11,11 @@
 
 
 - formal description :
-    <center style="padding: 10px 100px;">_A computer program is said to learn from experience $E$ with respect to some class of tasks $T$ and performance measure $P$, if its performance at tasks in $T$, as measured by $P$, improves with experience $E$._</center>
+    <center style="padding: 10px 100px;">_A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E._</center>
     For example :
-    - Task $T$ : Classify a tweet as "going to be retweeted" or not 
-    - Experience $E$ : A corpus of tweets for an account with both classes
-    - Performance $P$ : Classification accuracy, the percentage of well predicted tweets out of all tweets
+    - Task T : Classify a tweet as "going to be retweeted" or not 
+    - Experience E : A corpus of tweets for an account with both classes
+    - Performance P : Classification accuracy, the percentage of well predicted tweets out of all tweets
 
 
 - assumptions : make a list of assumptions about the problem 
