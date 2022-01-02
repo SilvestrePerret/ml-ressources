@@ -1,0 +1,26 @@
+# Saved requests GUI
+notebooks/saved_requests/
+
+# Data
+data/
+
+# env
+.env
+
+# vscode
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache
+
+# pytest
+.pytest_cache
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Distribution / packaging
+*.egg-info/

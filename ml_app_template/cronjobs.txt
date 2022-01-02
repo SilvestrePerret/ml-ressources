@@ -1,0 +1,14 @@
+# this is a comment ! (do not work for inline-comments)
+# things to be concerned with :
+# - current directory 
+# - absolute path to the command (use $whereis mycommand)
+# - virtual env (if so)
+# - logging (by default cron send a MAIL with the output of the command. Don't do that.)
+# - this file should have an empty newline at the end :-)
+# * * * * * cd /home/silvestre/cs-dauphine/prod && /usr/local/bin/flask sleep >> scheduled.log 2>&1
+
+# restart all servers every day in the morning
+5 4 * * * cd /home/data/cs-dauphine && bash run.sh
+
+# pull the knowledge graphs every week (monday morning)
+5 4 * * 1 cd /home/data/cs-dauphine && python3 scripts/download_knowledge_graphs.py
